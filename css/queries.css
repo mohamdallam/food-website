@@ -119,6 +119,7 @@
     margin-top: 1.2rem;
   }
 
+  /*----------------------------------------------- */
   /* MOBILE NAVIGATION */
   .btn-mobile-nav {
     display: block;
@@ -126,14 +127,14 @@
   }
 
   .main-nav {
-    background-color: rgba(255, 255, 255, 0.97);
-    -webkit-backdrop-filter: blur(10px);
     position: absolute;
     top: 0;
     left: 0;
     width: 100%;
     height: 100vh;
     transform: translateX(100%);
+    -webkit-backdrop-filter: blur(10px);
+    background-color: rgba(255, 255, 255, 0.97);
 
     display: flex;
     align-items: center;
